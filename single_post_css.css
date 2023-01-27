@@ -1,0 +1,122 @@
+
+/*///mojeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+
+.box {
+    /*width: 100%;
+    border-radius: 10px;
+    background: #fff;
+    position: relative;*/
+    display: flex;
+    /*justify-content:center;*/
+
+}
+.box-content1{
+
+    flex: 1; /* additionally, equal width */
+    text-align: left;
+    padding: 2em;
+}
+
+.box-content2 {
+
+    flex: 1; /* additionally, equal width */
+    text-align: right;
+    padding: 2em;
+}
+
+.box-content {
+    padding: 10px;
+
+}
+
+
+.box-text {
+    display: inline-block;
+
+    font-size: 15px;
+    vertical-align: top;
+    width: 100%;
+}
+
+.box-text .wrap {
+    padding: 5px;
+}
+h1{
+    text-align: center;
+
+}
+
+.edit{
+    text-align: center;
+    padding: 2em;
+    text-align: left;
+    font-size: 20px;
+}
+
+.menu {
+    display: none;
+}
+
+.menu.opened {
+    display: block;
+}
+
+.report{
+    text-align: right;
+}
+/* Pop up test*/
+.container{
+    width: 100%;
+    /*height: 100vh;*/
+    /*background: #3c5077;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup{
+    width: 400px;
+    background: #dbdbdb;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: black;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.popup h2{
+   font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background:  #828780;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.dropbtn2{
+    color: #c82333;
+}
+
+p{
+    padding: 20px;
+}

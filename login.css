@@ -1,0 +1,38 @@
+#prijava{
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    width: 50%;
+    border: 0.1em solid darkblue;
+    border-radius: 13px;
+
+    -webkit-box-shadow: -4px 3px 138px -8px rgba(0,0,0,0.57);
+-moz-box-shadow: -4px 3px 138px -8px rgba(0,0,0,0.57);
+box-shadow: -4px 3px 138px -8px rgba(0,0,0,0.57);
+}
+
+#login{
+    text-align: center;
+    padding: 3%;
+    margin: 0 auto;
+}
+
+#tools{
+    width: 50%;
+    margin: 0 auto;
+}
+
+form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.recovery{
+    float: right;
+}
+
+.login{
+    text-align: center;
+}
+
+main{
+    background: url('grey.jpg');
+}

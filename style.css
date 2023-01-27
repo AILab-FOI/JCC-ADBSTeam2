@@ -1,0 +1,170 @@
+html{
+    background: url('grey.jpg');
+}
+
+body{
+    font-family: Helvetica;
+}
+
+header{
+    font-family: Helvetica;
+}
+
+a:hover{
+    text-decoration: none;
+} 
+
+table{
+    border-collapse: collapse;
+    border: 0.2em solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table a{
+    font-size: 110%;
+}
+
+a{
+    color: rgb(63, 71, 80);
+}
+
+tr:hover{
+    background: rgb(167, 186, 187);
+    border: 2px solid rgb(55, 97, 77); 
+
+}
+
+td, tr{
+    text-align: center;
+}
+
+th{
+    font-size: 150%;
+    background-color: rgb(160, 160, 160);
+    border-bottom: 2px solid gray;
+}
+
+#info{
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 2% 0%;
+}
+
+#log{
+    margin-right:6%;
+    color: black;
+    margin-bottom: 4%;
+}
+
+#log a{
+    color: white;
+}
+
+#log a:hover{
+    color: cornflowerblue;
+}
+
+.specijalna{
+    font-size: 70%;
+}
+
+.tipkica{
+    width: 12em;
+    height: 3em;
+    font-size: 80%;
+    text-decoration: none;
+    color: rgb(78, 88, 99);
+    cursor: pointer;
+    border-radius: 2%;
+}
+
+.tipkica:hover{
+    background-color: #CAEBF2;
+    border: 0.5px solid black;
+}
+
+.josjedna{
+    background: rgb(228, 228, 228);
+}
+
+.pozadina{
+    background: url('grey.jpg');
+}
+
+.pretrazivanje{
+    font-size: 70%;
+    cursor: pointer;
+}
+
+.klasa
+{
+    background-color: rgba(0, 0, 0, 0.774);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+/*.klasica{
+    background-color: rgb(199, 199, 199);
+    font-size: 220%;
+    font-family: Helvetica;
+    border: 2px solid rgb(133, 133, 133);
+    border-radius: 1%;
+}*/
+
+.nova{
+    font-size: 110%;
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.navigation
+{
+    padding: 0 0 0 0;
+    margin: 0;
+}
+
+.nova:hover{
+    color: #CAEBF2;
+}
+
+.manjeod{
+    color: lightgray;
+}
+
+.glava{
+    background-color: lightblue;
+}
+
+.hid{
+    background-color: transparent;
+    padding: 0;
+    background-color: skyblue;
+}
+
+.hida{
+    border-radius: 15px;
+    color: darkslateblue;
+    padding: 0.2%;
+    margin: 0% 3%;
+    text-align: center;
+    font-size: 150%;
+}
+
+.kolica{
+    border-radius: 15px;
+    color: darkslateblue;
+    padding: 0.2%;
+    margin: 0% 3%;
+    text-align: center;
+    font-size: 150%;
+}
+
+.hida:hover{
+    border-bottom: 0.15em solid slateblue;
+}
+
+.navigacija{
+    background-color: gray;
+}
